@@ -1,0 +1,168 @@
+/* css */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.left ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left li{
+    display: inline;
+}
+
+.left a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.right{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.right ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.right li{
+    display: inline;
+}
+
+.right a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.right button{
+    background-color: rgb(65, 116, 192);
+    color: #fff;
+    padding: 7px;
+    border: none;
+}
+
+/* CONTENT */
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+}
+
+
+.search input{
+    width: 500px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.search i{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.search img{
+    position: absolute;
+    width: 20px;
+    height: auto;
+    top: 390px;
+    left: 1190px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons a{
+    background-color: rgb(218, 218, 218);
+    border: none;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    height: 50px;
+}
+
+.bottomleft{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bottomleft ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottomleft li{
+    display: inline;
+}
+
+.bottomleft a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.bottomright{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.bottomright ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottomright li{
+    display: inline;
+}
+
+.bottomright a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
